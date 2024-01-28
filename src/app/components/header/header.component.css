@@ -1,0 +1,15 @@
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .btn-pink{
+    background-image: var(--pink);
+  }
+  .btn-pink:hover{
+    background-color: var(--pink-hover);
+  }
+  
+  .header{
+    padding: 20px;
+    color: #fff;
+  }

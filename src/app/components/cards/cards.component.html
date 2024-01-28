@@ -1,0 +1,14 @@
+<div class="cards" [style.background-image]="'url(' + backgroundImage + ')'" [style.background-color]="backgroundColor">
+    <div class="row">
+      @for(item of items; track item.id){
+      <div class="col-sm-6 col-md-4 mb-3 mb-sm-0">
+        <div class="card text-white">
+        <div class="card-body" [style.background-color]="bgCard">
+          <h5 class="card-title">{{item.title}}</h5>
+          <p class="card-text">{{item.description}}</p>
+          <a href="#" class="btn btn-outline-primary">{{item.btnText}}</a>
+        </div>
+      </div>
+      </div>}
+    </div>
+  </div>
